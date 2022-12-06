@@ -4,8 +4,8 @@ import './App.css'
 import { getMatches, IMatchesProps } from './services/matches';
 
 function App() {
-  const [teams, setTeams] = useState([])
-  const [goals, setGoals] = useState([])
+  const [teams, setTeams] = useState<any>([])
+  const [goals, setGoals] = useState<any>([])
 
   const options = {
     chart: {
